@@ -265,7 +265,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
 
 </section>
 
-      {/* Services Section */}
+  {/* Services Section */}
 <section id="services" className="bg-white py-24">
 
   <div className="max-w-7xl mx-auto px-6">
@@ -299,7 +299,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
 
 
       {/* Service 1 */}
-      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300">
+      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300 min-h-[280px] flex flex-col">
 
         <div className="w-12 h-12 rounded-xl bg-[#E8F8FA] group-hover:bg-[#16B8C4] flex items-center justify-center text-[#087EA4] group-hover:text-[#0B1F33] font-bold transition-colors">
           01
@@ -314,7 +314,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
           water treatment systems.
         </p>
 
-        <div className="mt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
+        <div className="mt-auto pt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
           Learn more →
         </div>
 
@@ -322,7 +322,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
 
 
       {/* Service 2 */}
-      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300">
+      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300 min-h-[280px] flex flex-col">
 
         <div className="w-12 h-12 rounded-xl bg-[#E8F8FA] group-hover:bg-[#16B8C4] flex items-center justify-center text-[#087EA4] group-hover:text-[#0B1F33] font-bold transition-colors">
           02
@@ -337,7 +337,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
           your plant operating efficiently.
         </p>
 
-        <div className="mt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
+        <div className="mt-auto pt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
           Learn more →
         </div>
 
@@ -345,7 +345,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
 
 
       {/* Service 3 */}
-      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300">
+      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300 min-h-[280px] flex flex-col">
 
         <div className="w-12 h-12 rounded-xl bg-[#E8F8FA] group-hover:bg-[#16B8C4] flex items-center justify-center text-[#087EA4] group-hover:text-[#0B1F33] font-bold transition-colors">
           03
@@ -360,7 +360,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
           system performance and support.
         </p>
 
-        <div className="mt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
+        <div className="mt-auto pt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
           Learn more →
         </div>
 
@@ -368,7 +368,7 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
 
 
       {/* Service 4 */}
-      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300">
+      <div className="group p-7 rounded-2xl bg-white border border-gray-200 hover:bg-[#0B1F33] hover:border-[#0B1F33] hover:shadow-xl transition-all duration-300 min-h-[280px] flex flex-col">
 
         <div className="w-12 h-12 rounded-xl bg-[#E8F8FA] group-hover:bg-[#16B8C4] flex items-center justify-center text-[#087EA4] group-hover:text-[#0B1F33] font-bold transition-colors">
           04
@@ -383,11 +383,12 @@ function App() {  const [menuOpen, setMenuOpen] = useState(false)
           water treatment components.
         </p>
 
-        <div className="mt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
+        <div className="mt-auto pt-6 text-sm font-semibold text-[#087EA4] group-hover:text-[#16B8C4] transition-colors">
           Learn more →
         </div>
 
       </div>
+
 
     </div>
 
